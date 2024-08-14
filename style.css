@@ -1,0 +1,19 @@
+.conatiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.flex{
+    display: flex;
+}
+.m-left{
+    margin-left: 10px;
+}
+.p-2{
+    padding: 5px 5px;
+}
+.mt-2{
+    margin-top: 2rem;
+    padding: 12px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firestore</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="conatiner">
+      <h1>Todo App</h1>
+
+      <div class="flex">
+        <input type="text" id="todo-text" placeholder="Enter todo" class="p-2"/>
+        <button id="addtodo" class="m-left">Add Todo</button>
+      </div>
+      <ul id="show-text" class="mt-2"></ul>
+    </div>
+
+    <script src="firebase.mjs" type="module"></script>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
